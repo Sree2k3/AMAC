@@ -1,0 +1,55 @@
+# ----------------------------------------------------------
+# Operating-system or editor artefacts
+# ----------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+# Linux
+*~
+
+# ----------------------------------------------------------
+# Python side
+# ----------------------------------------------------------
+*.pyc
+__pycache__/
+.cache/
+.env
+.env.*
+*.venv/
+*.egg-info
+setup.cfg
+*.egg
+# Poetry/Pipenv lock, if used
+poetry.lock
+Pipfile.lock
+# AST cache
+astroid_cache/
+
+# ----------------------------------------------------------
+# Node / Next.js side
+# ----------------------------------------------------------
+node_modules/
+.next/
+out/
+build/
+dist/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----------------------------------------------------------
+# Miscellaneous
+# --------------------------------------------------------
+*.md
+*.png
+*.jpg
+*.svg
+
+.venv/
+backend/.venv/
+backend/backend/.venv/
