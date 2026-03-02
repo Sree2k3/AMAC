@@ -13,7 +13,7 @@ tqdm
 pyyaml
 httpx
 lxml
-rich
+rich==13.5.1
 dotenv
 requests
 pytest
