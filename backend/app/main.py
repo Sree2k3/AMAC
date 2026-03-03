@@ -1,5 +1,5 @@
 ﻿import os
-from dotenv import load_dotenv   # <â€‘ new line
+from dotenv import load_dotenv   
 
 load_dotenv()                     # <â€‘ add this before any other imports that read envs
 
